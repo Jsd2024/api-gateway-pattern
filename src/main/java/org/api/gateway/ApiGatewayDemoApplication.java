@@ -1,0 +1,13 @@
+package org.api.gateway;
+
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ApiGatewayDemoApplication {
+    public static void main(String[] args) {
+        // The SpringApplication.run method starts the Spring Boot application
+        SpringApplication.run(ApiGatewayDemoApplication.class, args);
+    }
+}
